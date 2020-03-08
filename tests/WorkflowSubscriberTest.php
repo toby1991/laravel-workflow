@@ -2,14 +2,14 @@
 
 namespace Tests {
 
-    use Brexis\LaravelWorkflow\Events\CompletedEvent;
-    use Brexis\LaravelWorkflow\Events\EnteredEvent;
-    use Brexis\LaravelWorkflow\Events\EnterEvent;
-    use Brexis\LaravelWorkflow\Events\GuardEvent;
-    use Brexis\LaravelWorkflow\Events\LeaveEvent;
-    use Brexis\LaravelWorkflow\Events\TransitionEvent;
+    use TobyYan\LaravelWorkflow\Events\CompletedEvent;
+    use TobyYan\LaravelWorkflow\Events\EnteredEvent;
+    use TobyYan\LaravelWorkflow\Events\EnterEvent;
+    use TobyYan\LaravelWorkflow\Events\GuardEvent;
+    use TobyYan\LaravelWorkflow\Events\LeaveEvent;
+    use TobyYan\LaravelWorkflow\Events\TransitionEvent;
     use PHPUnit\Framework\TestCase;
-    use Brexis\LaravelWorkflow\WorkflowRegistry;
+    use TobyYan\LaravelWorkflow\WorkflowRegistry;
     use Tests\Fixtures\TestObject;
 
     class WorkflowSubscriberTest extends TestCase

@@ -54,6 +54,7 @@ return [
             'to_review' => [
                 'from' => 'draft',
                 'to'   => 'review'
+                'metadata' => ['max' => 1],
             ],
             'publish' => [
                 'from' => 'review',
